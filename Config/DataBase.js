@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-const  SocialDB = "mongodb://0.0.0.0:27017/SocialsDataBase1"
+const  SocialDB = "mongodb://0.0.0.0:27017/SocialsDataBase2"
 const SocialDB2 ="mongodb:127.0.0.0:27017/SocialsDataBase"
 const SocialDB3 ="mongodb://localhost/SocialsDataBase"
 

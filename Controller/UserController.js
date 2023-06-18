@@ -3,7 +3,7 @@ const userModel = require("../Model/UserModel")
 
 const getAllUser = async(req,res)=>{
     try {
-        const allUsers = await userModel.find()
+        const allUsers = await userModel.find().sort({createdAt:-1})
         res.status(200).json({
             message:"getting all user",
             data:allUsers
